@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me - Ravi Kumar</title>
+    <title>About Me and Projects - Ravi Kumar</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -19,11 +19,11 @@
             border-radius: 5px;
             text-align: center;
         }
-        p {
+        p, .project {
             background-color: #ecf0f1;
             padding: 15px;
             border-radius: 8px;
-            margin: 10px 0;
+            margin: 15px 0;
         }
         .highlight {
             color: #e74c3c; /* Red */
@@ -33,6 +33,26 @@
         }
         .accent2 {
             color: #16a085; /* Teal */
+        }
+        .project h2 {
+            color: #2c3e50;
+        }
+        .project a {
+            color: #2980b9;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .project a:hover {
+            text-decoration: underline;
+        }
+        .project img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+        .description {
+            color: #555;
         }
     </style>
 </head>
@@ -44,6 +64,33 @@
     <p>I’ve successfully worked with cross-functional teams, integrating <span class="highlight">RESTful APIs</span> and deploying features with <span class="highlight">CI/CD pipelines</span>, and am always committed to following best practices.</p>
     
     <p>I have experience in various domains, from <span class="accent">e-commerce applications</span> to <span class="accent">music streaming platforms</span>, and am skilled in using tools like <span class="highlight">Git</span>, <span class="highlight">Jenkins</span>, <span class="highlight">IntelliJ</span>, and project management software such as <span class="highlight">Jira</span> and <span class="highlight">Trello</span>. My passion for problem-solving and staying updated with industry trends motivates me to continue growing as a developer.</p>
+
+    <h1>Projects</h1>
+
+    <div class="project">
+        <h2>Shopping Cart Application</h2>
+        <p class="description">A comprehensive online shopping solution, allowing users to browse products, add items to their cart, and complete secure checkouts.</p>
+        <p><strong>Technologies:</strong> Java, Spring Boot, ReactJS, MySQL</p>
+        <p><strong>Tools:</strong> Eclipse, VSCode</p>
+        <p><a href="#">View Project</a></p>
+        <img src="shopping-cart-screenshot.png" alt="Shopping Cart Application Screenshot">
+    </div>
+
+    <div class="project">
+        <h2>Code Conductor</h2>
+        <p class="description">A collaborative web platform for software development teams, offering project management, version control, and code review features.</p>
+        <p><strong>Technologies:</strong> Java, JavaScript, Spring Boot, React, MySQL</p>
+        <p><a href="#">View Project</a></p>
+        <img src="code-conductor-screenshot.png" alt="Code Conductor Screenshot">
+    </div>
+
+    <div class="project">
+        <h2>Media Leap Music Application</h2>
+        <p class="description">A music streaming application that allows users to listen to songs, create playlists, and discover new music.</p>
+        <p><strong>Technologies:</strong> Java, JavaScript, Spring Boot, React, MySQL</p>
+        <p><a href="#">View Project</a></p>
+        <img src="media-leap-screenshot.png" alt="Media Leap Music Application Screenshot">
+    </div>
 
 </body>
 </html>
